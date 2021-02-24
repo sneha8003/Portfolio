@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-style: arial, sans-serif;
+ font-size: 18px; 
+}
+h1{
+   margin: 2px;
+   margin-left: 100px;
+
+}
+nav{
+	background-color: black; 
+}
+nav ul {
+ 	width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li{
+	 list-style:none; 
+   flex:1 1 0;
+}
+
+nav ul li a{
+	text-decoration: none;
+  text-align: center;
+  color:white; display:
+  block; width: 80px;
+}
+a:hover{
+  background-color: grey;
+}
+.active{
+  background-color: green;
+}
+
+section{
+  display: flex;
+}
+
+form{
+  width: 50%;
+  align-items: center;
+
+}
+form label{
+  margin: 2%;
+  width: 15%;
+
+ /*padding:3%;*/
+  /*width: 15px;*/
+}
+
+form input{
+  margin-top: 2%;
+  height: 16px;
+  /*margin: 2%;*/
+  /*padding: 5px;*/
+  /*margin: 1%;*/
+}
+/*submit button is styled*/
+form input[type="submit"]{
+  margin-left: 8%;
+  width: 60px;
+  height: 20px;
+}
+/*reset button is styled*/
+form input[type="reset"]{
+  margin-left: 5px;
+  width: 60px;
+  height: 20px;
+}
+.box{
+  display: flex;
+  height: 20px;
+  margin: 5%;
+}
+/*map is styled*/
+.map{
+  height: 4px;
+  width: 150px;
+}
+

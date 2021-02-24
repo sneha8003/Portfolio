@@ -1,0 +1,78 @@
+body{
+  margin: 0
+  font-style: arial;
+ font-size: 18px; 
+}
+h1{
+   margin: 0;
+   margin-left: 100px;
+}
+/*the navigation bar is styled*/
+nav{
+	background-color: black; 
+}
+nav ul {
+ 	width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+ }
+nav ul li{
+	 list-style:none; 
+   /*width: 16%;*/
+   flex:1 1 0;
+}
+nav ul li a{
+	text-decoration: none;
+  text-align: center;
+  color:white; 
+  display: block;
+  width: 80px;
+}
+a:hover{
+	background-color: grey;
+}
+/* This shows active nav bar in green color */
+.active{
+  background-color: green;
+}
+section{
+  background-color: lightblue;
+  display: flex;
+  color: white;
+  align-items: center;
+  margin:6px;
+}
+/* The image in left-side of section is styled*/
+.first{
+  width: 50%;
+  height: 400px;
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-size: 30px;
+}
+
+/*The text in right side of section is styled*/
+.second{
+   text-shadow: 2px 2px red;
+   font-size: 30px;
+}
+
+/* Text in footer is styled */
+footer{
+	 background-color: #5275AD;
+   padding: 2%;
+   font-size: 25px; 
+   height: 115px;
+  font-style: italic;
+  margin: 6px;
+}
+
+
+
+
+
+
+

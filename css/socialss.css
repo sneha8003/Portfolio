@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  font-style: arial;
+ font-size: 18px; 
+}
+h1{
+   margin: 0;
+   margin-left: 100px;
+}
+nav{
+  background-color: black; 
+}
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+ }
+nav ul li{
+   list-style:none; 
+   flex:1 1 0;
+}
+nav ul li a{
+  text-decoration: none;
+  text-align: center;
+  color:white; display:
+  block; width: 80px;
+}
+a:hover{
+  background-color: grey;
+}
+.active{
+  background-color: green;
+}
+/*text in section is styled*/
+.container{
+  margin-top: 0.5%;
+  padding: 2%;
+  height: 300px;
+  width: 100%;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px red;
+}
+/*image in footer is styled*/
+.dash{
+  padding: 2%;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
+
+

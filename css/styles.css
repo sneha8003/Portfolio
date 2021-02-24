@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  font-style: arial;
+ font-size: 18px; 
+}
+h1{
+   margin: 2px;
+   margin-left: 100px;
+}
+nav{
+	background-color: black; 
+}
+nav ul {
+ 	width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li{
+	 list-style:none; 
+   flex:1 1 0;
+}
+nav ul li a{
+	text-decoration: none;
+  text-align: center;
+  color:white; display:
+  block; width: 80px;
+}
+a:hover{
+  background-color: grey;
+}
+.active{
+  background-color: green;
+}
+/*Section is  styled*/
+section{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  height: 500px;
+
+}
+/*left side of section is styled*/
+.aside{
+  width: 40%;
+}
+/*right side of section is styled*/
+.main{
+  width: 60%;
+}
+/*Footer is styled*/
+.ftdiv{
+  padding: 0.5%;
+  text-align: center;
+  font-size: 24px;
+  font-style: oblique;
+  margin-top: 8px;
+  background-color: #5275AD;
+  height:50px;
+}
+

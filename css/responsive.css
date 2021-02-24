@@ -1,0 +1,23 @@
+@media screen and (max-width: 400px){
+
+nav ul {flex-direction: column;}
+nav ul li{ padding: 1%; }
+nav ul li a{ width: 100%; text-align: center; }
+section{ flex-direction: column; height: auto;}
+.first img {width: 200px;height: 200px;}
+.second{font-size: 15px;}
+.aside {width: 60%; height: auto;}
+.main{font-size: 15px;width: 60%; padding-left: 5%;}
+.ftdiv{font-size: 18px;}
+.content{display: flex; flex-direction: column;}
+.left-column{width: 84%; height: auto;}
+.right-column{ width: 300px; height: auto;}
+.container{width: 88%; height: auto;}
+.dash img{width: 70%;}
+.contactSection{display: flex; flex-direction: column;}
+.menu{ padding:2%; width: 78%;}
+.menu img{ width: 90%; }
+form{width: 90%; height: auto; margin-left: 7%;}
+form input{margin-left: 10%;}
+.map{width: 85%; height: auto; margin-left: 2.5%;}
+/*iframe{width: 85%;}*/
